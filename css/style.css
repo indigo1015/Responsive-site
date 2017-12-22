@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Pangolin");
+body {
+  color: #BF4E28;
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+  background-color: #F6F7BE; }
+
+.relative {
+  position: relative;
+  background-image: url(../images/yagi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%; }
+
+span {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  margin: auto;
+  text-align: center; }
+
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover; }
+
+main .main-title {
+  text-align: center;
+  padding: 30px; }
+main .showcase {
+  display: flex;
+  justify-content: space-between; }
+  main .showcase .box {
+    width: 30%;
+    background: #80BDA4;
+    text-align: center; }
+  main .showcase .box-title {
+    padding: 30px 0; }
+  main .showcase .box-text {
+    padding: 60px 0;
+    background: #E5AC27; }
+
+@media (max-width: 768px) {
+  header img {
+    height: 250px 　; }
+
+  main .showcase {
+    flex-direction: column; }
+    main .showcase .box {
+      width: 100%;
+      margin-bottom: 30px; } }
+footer {
+  text-align: center; }
+  footer .button {
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 20px;
+    display: block;
+    background: #E5AC27;
+    border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */
